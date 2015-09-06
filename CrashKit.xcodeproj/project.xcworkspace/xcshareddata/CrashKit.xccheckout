@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7A6E87C2-7832-4F68-8AE9-2600A30035D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CrashKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A7D9D2E5F8C838DD5E8633B448ECE46E4FD7993E</key>
+		<string>https://github.com/clustc/CrashKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrashKit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A7D9D2E5F8C838DD5E8633B448ECE46E4FD7993E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/clustc/CrashKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A7D9D2E5F8C838DD5E8633B448ECE46E4FD7993E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A7D9D2E5F8C838DD5E8633B448ECE46E4FD7993E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrashKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

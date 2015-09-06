@@ -101,8 +101,11 @@
     [picker addAttachmentData:data mimeType:@"text/plain" fileName:@"CrashReport"];
     
     NSLog(@"ViewController: %@", self.rootViewController.title);
-    [self.rootViewController presentModalViewController:picker animated:YES];
-    [picker release];
+//    [self.rootViewController presentModalViewController:picker animated:YES];
+      [self.rootViewController presentViewController:picker
+                                            animated:YES
+                                          completion:nil];
+      [picker release];
     
     [self pumpRunLoop];
   }
@@ -115,7 +118,9 @@
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
 {
   self.finishPump = YES;
-  [self.rootViewController dismissModalViewControllerAnimated:NO];
+//  [self.rootViewController dismissModalViewControllerAnimated:NO];
+    [self.rootViewController dismissViewControllerAnimated:NO
+                                                 completion:nil];
 }
 
 @end

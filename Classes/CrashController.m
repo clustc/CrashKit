@@ -92,12 +92,11 @@ void uncaughtExceptionHandler(NSException *exception)
   return self;
 }
 
-- (unsigned)retainCount
+- (NSUInteger)retainCount
 {
   return UINT_MAX;
 }
 
-- (void)release {}
 
 - (id)autorelease
 {
